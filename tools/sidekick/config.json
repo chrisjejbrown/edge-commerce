@@ -34,7 +34,7 @@
     },
     {
       "id": "asset-library",
-      "title": "Assets",
+      "title": "Assets", 
       "environments": [
         "edit"
       ],
