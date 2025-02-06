@@ -1,6 +1,17 @@
 {
   "project": "Boilerplate",
-  "plugins": [
+  "plugins": [    
+    {
+    "id": "library",
+    "title": "Library",
+    "environments": [
+      "edit"
+    ],
+    "url": "https://main--sol-sc-boilerplate-xwalk--tuckerelliott.hlx.live/tools/sidekick/library.html",
+    "includePaths": [
+      "**.docx**"
+    ]
+  },
     {
       "id": "cif",
       "title": "Commerce",
@@ -20,6 +31,19 @@
       "url": "https://main--aem-boilerplate-commerce--hlxsites.aem.live/tools/segments/dist/index.html",
       "isPalette": true,
       "paletteRect": "top: 54px; left: 5px; bottom: 5px; width: 300px; height: calc(100% - 59px); border-radius: var(--hlx-sk-button-border-radius); overflow: hidden; resize: horizontal;"
+    },
+    {
+      "id": "asset-library",
+      "title": "Assets",
+      "environments": [
+        "edit"
+      ],
+      "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html?rail=false",
+      "isPalette": true,
+      "includePaths": [
+        "**.docx**"
+      ],
+      "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:800px; height: calc(100vh - 60px)"
     }
   ]
 }
